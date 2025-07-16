@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1751812357599" clover="3.2.0">
+  <project timestamp="1751812357599" name="All files">
+    <metrics statements="11" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="0" elements="23" coveredelements="2" complexity="0" loc="11" ncloc="11" packages="2" files="2" classes="2"/>
+    <package name="db.models">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="post.js" path="/home/penurajeshitsd/Full-Stack-React-Projects/ch3/src/db/models/post.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="9" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="posts.js" path="/home/penurajeshitsd/Full-Stack-React-Projects/ch3/src/services/posts.js">
+        <metrics statements="9" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

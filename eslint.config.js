@@ -5,10 +5,8 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
-  // Ignore dist folder and vite config file
   globalIgnores(['dist', 'vite.config.js']),
 
-  // Frontend JS/JSX files
   {
     files: ['**/*.{js,jsx}'],
     ignores: ['dist', 'vite.config.js'],
@@ -31,13 +29,12 @@ export default defineConfig([
     },
   },
 
-  // Backend Node.js files
   {
     files: ['backend/**/*.js'],
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
-      globals: globals.node, // enables process, global, __dirname, etc.
+      globals: globals.node,
     },
   },
 ])
